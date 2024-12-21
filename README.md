@@ -302,13 +302,13 @@ This project aimed to predict the shortest path that a Knight piece can take on 
 
   The recursion keeps happening until the base case is true and the final output is an array containing the cells that represent the shortest path from the destination to the source cell. The array is then processed and the shortest path is returned.
 
-- **_O(V + E)_ Time Complexity** - The main function of the project runs in _O(V + E)_ Time Complexity
+- **`O(V + E)` Time Complexity** - The main function of the project runs in `O(V + E)` Time Complexity
 
-  - The chess-board contains 8 x 8 = 64 cells (vertices), so its worst complexity is _O(V)_ = _O(64)_.
-  - From each cell, a knight can make a total of 8 possible moves (edges), so its worst complexity is _O(8V)_ = _O(8(64))_ = _O(512)_.
-  - The time complexity of the BFS algorithm is given by _O(V + E)_ = _O(64 + 512)_ = _O(576)_.
-  - Backtracking Complexity using Recursion at the worst case from source cell [0, 0] to destination cell [7, 7] is 6 moves, so the worst complexity is _O(k)_ where _K <= 6_.
-  - Thus, the total is _O(576)_ + _O(6)_ but _k_ is negligible compared to _O(576)_, thus the Worst Case Time Complexity is _O(V + E)_.
+  - The chess-board contains `8 x 8 = 64` cells (vertices), so its worst complexity is `O(V) = O(64)`.
+  - From each cell, a knight can make a total of 8 possible moves (edges), so its worst complexity is `O(8V) = O(8 * 64) = O(512)`.
+  - The time complexity of the BFS algorithm is given by `O(V + E) = O(64 + 512) = O(576)`.
+  - Backtracking Complexity using Recursion at the worst case from source cell `[0, 0]` to destination cell `[7, 7]` is 6 moves, so the worst complexity is `O(k)` where `k <= 6`.
+  - Thus, the total is `O(576) + O(6)` but `O(k)` is negligible compared to `O(576)`, thus the Worst Case Time Complexity is `O(V + E)`.
 
 ### Implementation
 
