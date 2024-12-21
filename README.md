@@ -5,7 +5,7 @@ This repository is a compilation of some key Data Structures and Algorithms in C
 ## Summary
 
 - [Recursion](#recursion)
-- [Linked-Lists](#linked-lists)
+- [Linked-Lists](#linked-list)
 - [HashMap-HashSet](#hashmap-hashset)
 - [Balanced Binary Search Trees](#balanced-binary-search-trees)
 - [Knight Travails](#knight-travails)
