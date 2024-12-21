@@ -1,0 +1,13 @@
+{
+  "name": "data-structures-and-algorithms",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "This repository is a compilation of some key Data Structures and Algorithms in Computer Science I've developed to bolster my problem-solving skills. Each of the data structures & algorithms were built from scratch after learning and understanding the logic behind their working using various internet sources.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
