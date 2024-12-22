@@ -136,7 +136,7 @@ HashMap is one of the most efficient data structures out there with the capabili
 
 ### Implementation
 
-For the full implementation of the HashMap, please refer to the [Source Code](./HashMap%20HashSet/hashMap.js).
+For the full implementation of the HashMap, please refer to the [Source Code](./HashMap-HashSet/hashMap.js).
 
 ### Sample Output
 
@@ -312,7 +312,7 @@ This project aimed to predict the shortest path that a Knight piece can take on 
 
 ### Implementation
 
-For the full implementation of the Knight Travails project, please refer to the [Source Code](./Knight%20Travails/knightTravails.js).
+For the full implementation of the Knight Travails project, please refer to the [Source Code](./Knight-Travails/knightTravails.js).
 
 ### Sample Output
 
